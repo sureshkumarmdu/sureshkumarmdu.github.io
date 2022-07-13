@@ -1,0 +1,268 @@
+#wpsl-gmap, #wpsl-result-list {
+	width:100%;
+}
+#wpsl-wrap {
+	left:30px;
+	overflow: visible;
+	position:absolute;
+	top:60px;
+	width:400px;
+}
+.wpsl-search-btn-wrap .dt-sc-storesearch-btn {
+	font-family:Fontawesome;
+}
+.dt-sc-advanced-options {
+	display:none;
+	float:left;
+	margin:10px 0 0;
+	padding:20px 15px;
+	width:100%;
+}
+.wpsl-input #wpsl-search-input {
+	background:#fff;
+	border-width:0;
+	border-radius:0!important;
+	float:left;
+	height:60px;
+	line-height:60px;
+	margin-right:0;
+	padding:10px 12px;
+	width:316px;
+}
+#wpsl-search-wrap .wpsl-input {
+	margin-right:0;
+	position:relative;
+	width:100%;
+}
+#wpsl-search-wrap .wpsl-search-btn-wrap, #wpsl-search-btn {
+	margin-right:0;
+}
+.dt-sc-toggle-advanced-options {
+	background:#fff;
+	color:#4d4d4d;
+	float:left;
+	height:60px;
+	line-height:40px;
+	padding:10px;
+	position:relative;
+	width:100%;
+}
+.dt-sc-toggle-advanced-options:hover {
+	color:#4d4d4d;
+}
+.dt-sc-toggle-advanced-options span {
+	color:#fff;
+	float:right;
+	font-size:20px;
+	height:60px;
+	line-height:60px;
+	position:absolute;
+	right:0;
+	text-align:center;
+	top:0;
+	width:60px;
+}
+.wpsl-input label, #wpsl-radius label, #wpsl-category label, #wpsl-results label {
+	width:67%!important;
+}
+#wpsl-radius, .wpsl-select-wrap #wpsl-results {
+	margin-bottom:10px;
+	margin-right:0!important;
+	width:100%!important;
+}
+#wpsl-result-list li p {
+	margin-bottom:0;
+}
+#wpsl-search-wrap .wpsl-select-wrap div label {
+	line-height: 40px;
+}
+#wpsl-results .wpsl-dropdown {
+	z-index:1;
+}
+.wpsl-select-wrap {
+	margin-bottom:0!important;
+	width:100%;
+}
+#wpsl-checkbox-filter {
+	margin-top:0!important;
+}
+.wpsl-dropdown {
+	border-radius:0!important;
+	width:30%!important;
+}
+#wpsl-wrap #wpsl-stores, #wpsl-wrap #wpsl-direction-details {
+	height:540px!important;
+}
+#wpsl-stores .wpsl-store-thumb {
+	border-radius:0!important;
+}
+#wpsl-radius {
+	width:58%;
+}
+.wpsl-select-wrap #wpsl-results {
+	margin-right:0;
+	width:38%;
+}
+#wpsl-checkbox-filter input[type="checkbox"] {
+	float:right;
+	margin:10px 0 0;
+}
+#wpsl-search-btn {
+	background-image:none;
+	border-radius:0!important;
+	color:#fff;
+	height:60px;
+	margin-top:0;
+	width:60px;
+}
+#wpsl-wrap #wpsl-result-list ul li {
+	margin: 20px 15px;
+	padding: 20px 20px 30px;
+}
+#wpsl-wrap #wpsl-result-list li:last-child {
+	border-bottom:none;
+}
+.wpsl-locations-details {
+	color:#fff;
+	float:left;
+	margin-top:25px;
+	padding:15px 10px 0;
+	width:100%;
+}
+.wpsl-locations-details > span {
+	display:block;
+	margin-bottom:20px;
+}
+.single-wpsl_stores #wpsl-base-gmap_0 {
+	height:400px;
+}
+.dt-appointment-fix {
+	float:left;
+	margin:0;
+	padding:8px 20px 8px 30px !important;
+	position:relative;
+}
+#wpsl-stores .wpsl-directions {
+	color:#fff;
+	padding:4px 10px 4px 25px;
+	position:relative;
+	text-align: center;
+}
+#wpsl-stores li > p span {
+	color:#fff;
+	display:block;
+	padding: 5px 7px;
+}
+#wpsl-stores li > p {
+	display:block;
+	float:left;
+	text-align:center;
+	width:100%;
+}
+ #wpsl-stores li > p, #wpsl-stores li > p ~ .wpsl-directions {
+	border-style: solid;
+	border-width: 0 1px;
+	border-color: rgba(255,255,255, 0.15);
+	display: inline-block;
+	line-height: normal;
+	margin: 20px 0;
+	width: 50%;
+}
+#wpsl-stores li > p span, #wpsl-stores li > p ~ .wpsl-directions {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#wpsl-stores li > div {
+	float:left;
+	width:100%;
+}
+#wpsl-stores li > div p a {
+	display:block;
+	margin-bottom:10px;
+}
+#wpsl-stores li > a:before {
+	display: inline-block;
+	font-family:FontAwesome;
+	font-weight: normal;
+	margin-top: -5px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+#wpsl-stores li > a.dt-appointment-fix:before {
+	content:"\f133";
+}
+#wpsl-stores li > a.wpsl-directions:before {
+	content:"\f124";
+}
+#wpsl-search-btn, #wpsl-search-wrap input {
+	border:none;
+}
+#wpsl-wrap .wpsl-selected-item, .wpsl-dropdown {
+	color:#fff;
+}
+.wpsl-selected-item:after {
+	border-top:8px solid #fff!important;
+}
+ .wpsl-active .wpsl-selected-item::after {
+	border-bottom:8px solid #fff!important;
+	border-top:none!important;
+	margin-top:-5px;
+}
+#wpsl-search-wrap #wpsl-checkbox-filter label, #wpsl-checkbox-filter.wpsl-checkbox-3-columns li {
+	margin-right:0;
+	width:100%;
+}
+#wpsl-wrap #wpsl-result-list li {
+	border-width: 0;
+}
+.wpsl-search, #wpsl-result-list {
+	background-color: rgba(237, 245, 248, 0.8);
+	-webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+}
+#wpsl-checkbox-filter.wpsl-checkbox-3-columns li {
+	border-bottom: 1px dashed rgba(0, 0, 0, 0.15);
+	margin-right:0;
+	padding: 10px 0;
+	width:100%;
+}
+.dt-sc-advanced-options, #wpsl-wrap #wpsl-result-list ul li {
+	background-color: rgba(255, 255, 255, 0.64);
+}
+
+
+	/*----*****---- << Mobile (Landscape) >> ----*****----*/	
+	
+	/* Common Styles for the devices below 767px width */
+	@media only screen and (max-width: 767px) {
+
+		/*----*****---- << Store Locator >> ----*****----*/
+		#wpsl-wrap { margin: 35px auto; position: static; }
+		#wpsl-wrap #wpsl-stores, #wpsl-wrap #wpsl-direction-details { height: 325px !important; }
+
+		.wpsl-input #wpsl-search-input { width: 316px !important; }
+		#wpsl-search-wrap .wpsl-search-btn-wrap { clear: none; }
+		#wpsl-search-wrap #wpsl-search-btn { margin-right: 0; }
+		#wpsl-gmap { margin: 0; }
+
+	}
+
+
+	/* Common Styles for the devices below 479px width */
+	@media only screen and (max-width: 479px) {
+
+		/*----*****---- << Store Locator >> ----*****----*/
+		#wpsl-wrap { font-size:14px; width: 80%; }
+		#wpsl-wrap #wpsl-stores, #wpsl-wrap #wpsl-direction-details { height: 525px !important; }
+
+		.wpsl-search-btn-wrap { clear:none; }
+		#wpsl-search-wrap #wpsl-search-btn { margin:0!important; position:absolute; right:0; }
+		#wpsl-search-wrap .wpsl-input #wpsl-search-input { width: 100% !important; }
+		.wpsl-input #wpsl-search-input, .dt-sc-toggle-advanced-options { font-size: 12px; }
+
+		#wpsl-wrap #wpsl-result-list ul li { padding-left: 15px; padding-right: 15px; text-align: center; }
+		#wpsl-stores .wpsl-store-thumb { display: block; float: none; margin: 0 auto 15px; }
+		#wpsl-stores li > p, #wpsl-stores li > p ~ .wpsl-directions { margin: 10px 0; width: 100%; }
+
+	}
